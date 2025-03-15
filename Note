@@ -10,7 +10,18 @@ Administrator Account
     web-design/
 User Account 
     
-
-    A new line added 
-
-    ANother one 
+Getting Started
+----------------
+- Create an account on Github 
+    (https://github.com/)
+- Downlaod Git   
+    (https://git-scm.com/downloads) 
+- Go to your Terminal in Visual Studio and type  git then hit enter 
+- Create repository on Github 
+- Go to the folder that has the code you want to push online (Gihub)
+- git init
+- git add . (or git add --all)
+- git commit -m "Put your message here"
+- git remote add origin git@github.com:username/your-repository.git
+- git push -u origin main
+- then go to github to see your newly pushed code
