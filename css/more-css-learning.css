@@ -1,0 +1,120 @@
+
+
+.background {
+    background-image: url(../image/large_bg.png);
+    background-size: cover;
+    height: 400px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+}
+
+.background-overlay {
+    background: rgba(0,0,0, 0.8);
+    height: 400px;
+    width: 100%;
+}
+
+.big-text {
+    text-align: center;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 56px;
+    color: white;
+    padding-top: 130px
+}
+
+.btn{
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.btn a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: red;
+}
+
+.btn a:hover{
+    opacity: 0.3;
+}
+
+ul li{
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    list-style-type: none;
+}
+
+li:nth-child(even) {
+    background-color: skyblue;
+    font-weight: bolder;
+}
+
+li:nth-child(odd) {
+    background-color: powderblue;
+}
+
+/* li:nth-child(5n) {
+    background-color: yellow;
+} */
+
+
+
+.image {
+    float: left;
+}
+
+
+.box1 {
+    float: left;
+    padding: 10px;
+    border: 1px solid grey;
+    width: 200px;
+}
+
+.box2 {
+    float: right;
+    padding: 10px;
+    border: 1px solid grey;
+    width: 200px;
+}
+
+.clear {
+    clear: both;
+    display: flex;
+}
+
+.new-lorem {
+    margin-top: 60px;
+    color: red;
+}
+
+@media (max-width: 400px) {
+    .new-lorem {
+        margin-top: 60px;
+        color: blue;
+    }
+
+    .big-text {
+        text-align: center;
+        font-family: Arial;
+        font-weight: bolder;
+        font-size: 25px;
+        color: white;
+        padding-top: 130px
+    }
+}
+
+@media (orientation: landscape) {
+    .new-lorem {
+        margin-top: 60px;
+        color: green;
+    }
+}
+
