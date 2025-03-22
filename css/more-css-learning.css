@@ -1,4 +1,6 @@
-
+body {
+    margin-bottom: 300px;
+}
 
 .background {
     background-image: url(../image/large_bg.png);
@@ -116,5 +118,12 @@ li:nth-child(odd) {
         margin-top: 60px;
         color: green;
     }
+}
+
+.text-shadow {
+    /* text-shadow: offset-x offset-y blur-radius color ; */
+    text-shadow: 3px 5px 5px grey;
+    font-size: 44px;
+
 }
 
